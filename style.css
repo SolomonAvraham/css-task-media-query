@@ -1,0 +1,111 @@
+/* ONE */
+
+@media screen and (min-width: 600px) {
+  .one img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .one img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+/* TWO */
+
+@media screen and (min-width: 600px) {
+  .two {
+    background-color: blue;
+    width: 500px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .two {
+    background-color: red;
+    width: 400px;
+    height: 300px;
+  }
+}
+
+/* THREE */
+
+@media screen and (min-width: 600px) {
+  .three {
+    background-color: green;
+    color: white;
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .three {
+    background-color: green;
+    color: yellow;
+    width: 350px;
+    height: 200px;
+  }
+}
+
+/* FOUR */
+
+@media screen and (min-width: 600px) {
+  #one {
+    max-height: 500px;
+  }
+  #two {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #one {
+    display: none;
+  }
+  #two {
+    max-height: 400px;
+  }
+}
+
+/* FIVE */
+
+@media screen and (min-width: 600px) {
+  .five {
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 50vw;
+    height: 90vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .five {
+    background-color: blue;
+    border: 2px solid black;
+    width: 40vw;
+    height: 30vh;
+  }
+}
+
+/* SIX */
+
+@media screen and (min-width: 600px) {
+  .six img {
+    filter: blur(50px);
+    max-height: 400px;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .six img {
+    filter: grayscale(103px);
+    max-height: 400px;
+
+  }
+}
