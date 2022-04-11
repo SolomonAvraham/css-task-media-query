@@ -1,0 +1,45 @@
+
+.one img {
+  background-color: black;
+  width: 30px;
+  height: 30px;
+}
+.two {
+  background-color: red;
+  width: 600px;
+  height: 600px;
+}
+
+.three {
+  height: 80px;
+  background-color: green;
+  color: yellow;
+}
+#four-1{
+    display: none;
+}
+#four-2{
+    width: 50vw;
+    height: 50vh;
+}
+
+.five{
+    background-color: blue;
+    width: 40vw;
+    height: 30vh;
+}
+
+
+.six img{
+    filter: grayscale(5);
+     width: 50vw;
+    height: 50vh;
+}
+
+
+.seven{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    cursor: pointer;
+}

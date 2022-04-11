@@ -98,14 +98,12 @@
   .six img {
     filter: blur(50px);
     max-height: 400px;
-
   }
 }
 
 @media screen and (max-width: 600px) {
   .six img {
-    filter: grayscale(103px);
+    filter: grayscale(80%);
     max-height: 400px;
-
   }
 }

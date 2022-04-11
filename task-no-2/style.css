@@ -1,0 +1,46 @@
+.one img {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+}
+
+.two {
+  background-color: blue;
+  width: 600px;
+  height: 600px;
+}
+
+.three {
+  height: 80px;
+  background-color: green;
+  color: white;
+}
+#four-1{
+    width: 50vw;
+    height: 50vh;
+}
+#four-2{
+    display: none;
+}
+
+.five{
+    background-color: blue;
+    width: 40vw;
+    height: 60vh;
+    border-radius: 50%;
+}
+
+.six img{
+    filter: blur(50px);
+    width: 50vw;
+    height: 50vh;
+
+}
+
+.seven{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    cursor: pointer;
+
+}
